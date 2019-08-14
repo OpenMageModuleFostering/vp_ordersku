@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Vp_Ordersku>
+      <version>1.0.0</version>
+    </Vp_Ordersku>
+  </modules>
+  <global>
+    <helpers>
+      <ordersku>
+        <class>Vp_Ordersku_Helper</class>
+      </ordersku>
+    </helpers>
+  <blocks>
+      <ordersku>
+        <class>Vp_Ordersku_Block</class>
+      </ordersku>
+      <adminhtml>
+                <rewrite>
+                    <sales_order_grid>Vp_Ordersku_Block_Adminhtml_Sales_Order_Grid</sales_order_grid>
+                </rewrite>
+            </adminhtml>
+    </blocks>
+  </global>
+  <admin>
+        <routers>
+            <adminhtml>
+                 <args>
+                       <modules>
+                        <Vp_Ordersku before="Mage_Adminhtml">Vp_Ordersku_Adminhtml</Vp_Ordersku>
+                       </modules>
+                 </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config> 

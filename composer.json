@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Vp_Ordersku",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Extends order grid - add skus n products",
+    "authors": [
+    {
+        "name": "vpinfo",
+        "email": "vpinfo39@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

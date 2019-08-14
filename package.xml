@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Vp_Ordersku</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extends order grid - add skus n products</summary>
+    <description>This extension extend the order grid and display the skus and products for particular orders in order grid. </description>
+    <notes>Extends order grid - add skus n products</notes>
+    <authors><author><name>vpinfo</name><user>vpinfo39</user><email>vpinfo39@gmail.com</email></author></authors>
+    <date>2014-06-21</date>
+    <time>10:04:30</time>
+    <contents><target name="magelocal"><dir name="Vp"><dir name="Ordersku"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="95bc1d930b381ad8683aa82a5712e087"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="a60b50168d49458655bffb993b057245"/></dir><dir name="etc"><file name="config.xml" hash="03d90c2cc02d0679a413e99c804e53b8"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Vp_Ordersku.xml" hash="75ee79df6d36a3e9e00096795b022ab7"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
