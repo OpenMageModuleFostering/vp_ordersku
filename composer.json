@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Vp_Ordersku",
+    "name": "openmage-module-fostering\/vp_ordersku",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Extends order grid - add skus n products",
     "authors": [
